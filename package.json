@@ -1,0 +1,16 @@
+{
+  "name": "robotnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serialRead.js",
+  "scripts": {
+    "start": "node serialRead.js"
+  },
+  "author": "anomaly",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serialport": "^8.0.7",
+    "socket.io": "^2.3.0"
+  }
+}

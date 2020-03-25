@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RobotNode API</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div class="grid-container">
+            <div class="main" id="parent1">
+                <div id="canvas1"></div>
+    
+                <p id="test"></p>
+                <button type="button" id="toggle">start</button>
+                <button type="button" id="reset">reset</button> <br>
+                <button type="button" id="resetPos">reset pos</button>
+                <div id="canvas2"></div>
+            </div>
+            <div class="right">
+                <div>
+                    <p style="text-align: center;">console<button type="button" id="clear">clear</button></p>
+                    <div id="console" style="width: 500px; height: 400px; overflow: scroll;">
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/jquery-3.4.1.min.js"></script>
+        <script src="/p5.min.js"></script>
+        <script src="client.js"></script>
+
+    </body>
+</html>
