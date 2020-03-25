@@ -8,7 +8,7 @@ make sure you have set up everything in [FinleyCore]() before trying to run Robo
 Finley is a 3 wheel differential drive robot with 2 motors and a ball caster wheel out the back. The motors have a secondary shaft with neodymium magnets and an analog hall effect sensor as an encoder setup. I made him to test out my autonomous control systems, but he can also be tele-operated.
 
 ## Parts List
-Finley is about $80 to $150 to build, depending on how much stuff you already have.
+Finley is about $80 to $150 to build, depending on how much stuff you already have.<br>
 <img src="https://images-na.ssl-images-amazon.com/images/I/51rmayrbsPL._AC_SX425_.jpg" width=200>
 <br>Arduino Uno (x2) -- $20 ea.<br>
 This is the main control system for Finley. One is for the brain of the robot, and one is for the controller.<br><br>
