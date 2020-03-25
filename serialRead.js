@@ -1,7 +1,7 @@
 const SerialPort = require("serialport");
 const Readline = require('@serialport/parser-readline');
 const port = new SerialPort("/dev/cu.usbmodem14201", {
-  baudRate: 2000000
+  baudRate: 2500000
   
 });
 
